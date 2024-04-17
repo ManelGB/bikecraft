@@ -6,11 +6,16 @@
 
 body {
   font-family: Arial, sans-serif;
+  color: #111111;
 }
 
 a {
   text-decoration: none;
   color: inherit;
+}
+
+ul {
+  list-style: none;
 }
 
 img {
