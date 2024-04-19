@@ -37,14 +37,9 @@
   border-radius: 4px;
 }
 
-@media (max-width: 1200px) {
-  .introducao h1 {
-    font-size: 3rem;
-  }
-
-  .introducao p {
-    font-size: 1.125rem;
-  }
+.espaco-imagem-introducao {
+  background-color: var(--cor-0);
+  padding-bottom: 120px;
 }
 
 @media (max-width: 800px) {
@@ -74,5 +69,9 @@
 
   .introducao-imagem {
     margin-bottom: -20px;
+  }
+
+  .espaco-imagem-introducao {
+    padding-bottom: 40px;
   }
 }
